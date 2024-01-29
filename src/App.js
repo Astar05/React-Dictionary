@@ -12,7 +12,27 @@ function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Nhu Huynh</small>
+          <small>
+            Coded by
+            <a
+              href="https://www.linkedin.com/in/nhu-huynh-a41a4670/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Nhu Huynh
+            </a>
+            <br />
+            Open-sourced on
+            <a
+              href="https://github.com/Astar05/react-dictionary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
