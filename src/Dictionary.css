@@ -1,3 +1,16 @@
 .Dictionary {
   text-align: center;
 }
+
+.Results {
+  text-align: left;
+}
+
+.synonyms {
+  font-style: italic;
+}
+
+h2,
+h4 {
+  text-align: center;
+}
