@@ -3,7 +3,6 @@ import Synonyms from "./Synonyms";
 import Example from "./Example";
 
 export default function Meaning(props) {
-  console.log(props.meaning);
   return (
     <div className="Meanings">
       <hr />
@@ -11,7 +10,6 @@ export default function Meaning(props) {
       <p>
         {props.meaning.definition}
         <br />
-
         <Synonyms synonyms={props.meaning.synonyms} />
         <br />
         <Example example={props.meaning.example} />
