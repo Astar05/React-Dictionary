@@ -16,3 +16,6 @@ body {
 .container {
   max-width: 900px;
 }
+.Synonyms li {
+  line-height: 7px;
+}
