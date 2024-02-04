@@ -14,3 +14,13 @@ h2,
 h4 {
   text-align: center;
 }
+
+.photos {
+  display: block;
+  margin: 0 auto;
+}
+
+.photos img {
+  border-radius: 10px;
+  height: 95%;
+}
